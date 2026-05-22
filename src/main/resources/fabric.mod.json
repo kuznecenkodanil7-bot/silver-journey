@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "minesweeper_client",
+  "version": "${version}",
+  "name": "Minesweeper Client",
+  "description": "Client-side Minesweeper screen opened with the Russian Ж key.",
+  "authors": ["morisnmoto"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/minesweeper_client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.morisnmoto.minesweeper.MinesweeperClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
